@@ -3,8 +3,10 @@
 This project uses the Face API JS library built on Tensor Flow to enable face recognition for any image. With the use of AI, the system is able to quickly identify the name of every character in an image without much performance overhead.
 
 ## Results
-![image1](./1.jpg)
-![image2](./2.jpg)
+![squad 2](https://github.com/apoorva240/Face-Recognition/assets/117351441/0b1b68fc-0066-449a-8193-f7448c7c99a9)
+![as](https://github.com/apoorva240/Face-Recognition/assets/117351441/5e491015-47f2-48be-b717-c28b80c0ce04)
+![av](https://github.com/apoorva240/Face-Recognition/assets/117351441/bb00cfb7-fa7f-46dd-a211-0e29612e4a4b)
+
 
 ## Concepts Covered
 
@@ -28,9 +30,7 @@ You need to run this on a live server otherwise this code won't run in your loca
 5. Create a `FaceMatcher` object using the labeled face descriptors and a matching threshold.
 6. Add an event listener to the image upload button to detect and recognize faces in the uploaded image.
 
-## Demo
 
-Check out the [https://facerecognition.epcm18.repl.co/] to see this face recognition system in action.
 
 ## Acknowledgments
 
@@ -40,7 +40,3 @@ This project was made possible with the help of the following resources:
 - [Tensor Flow](https://www.tensorflow.org/)
 
 
-## Face-Detection
-
-I've also created a real time face detecting system with webcam using face-api. Link to that given below.
--[https://github.com/epcm18/FaceDetection]
