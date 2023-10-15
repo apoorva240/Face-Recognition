@@ -39,7 +39,7 @@ async function start() {
 
 function loadLabeledImages() {
   // const labels = ['Lionel Messi', 'Neymar', 'Luis Suarez']
-  const labels = ['AB', 'Aron Finch', 'Chris Gayle', 'Dale Steyn', 'DK', 'FAF DuPlesis', 'Glen Maxwell', 'Harshal Patel', 'Josh Hazelwood', 
+  const labels = ['AB', 'Aritra', 'Apoorva', 'Aron Finch', 'Chris Gayle', 'Dale Steyn', 'DK', 'FAF DuPlesis', 'Glen Maxwell', 'Harshal Patel', 'Josh Hazelwood', 
   'Mohomad Siraj', 'Shabaz Ahamed', 'Virat Kohli', 'Wanidu Hasaranga','Yuzvendra Chahal']
   /*
   return Promise.all(
@@ -59,7 +59,7 @@ function loadLabeledImages() {
     labels.map(async label => {
       const descriptions = []
       for (let i = 1; i <= 2; i++) {
-        const img = await faceapi.fetchImage(`https://raw.githubusercontent.com/epcm18/FaceRecognition/main/samples_new/${label}/${i}.jpg`)
+        const img = await faceapi.fetchImage(`https://raw.githubusercontent.com/apoorva240/Face-Recognition/main/samples/${label}/${i}.jpg`)
         const detections = await faceapi.detectSingleFace(img).withFaceLandmarks().withFaceDescriptor()
         descriptions.push(detections.descriptor)
       }
